@@ -384,10 +384,24 @@ p {
 
 body {
   padding: 10px;
+  font-family: HKGrotesk, serif;
   color: #92a1a9;
   background-color: #272d42; }
 
+.search {
+  position: relative;
+  width: 176px; }
+
+.search__icon {
+  position: absolute;
+  top: 5px;
+  left: 5px; }
+
 #search__field {
+  width: 100%;
+  padding-left: 32px;
+  font-size: 24px;
+  font-weight: 300;
   color: #92a1a9;
   border: none;
   border-bottom: 3px solid #63757e;

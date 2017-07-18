@@ -1,15 +1,23 @@
 .search {
-  
+  position: relative;
+  width: 176px;
 }
 
 .search__icon {
-  
+  position: absolute;
+  top: 5px;
+  left: 5px;
 }
 
 #search__field {
+  width: 100%;
+  padding-left: 32px;
+  
+  font-size: 24px;
+  font-weight: 300;
   color: $font-main-color;
+  
   border: none;
   border-bottom: 3px solid $bgc-light;
   background-color: $bgc-main;
-  
 }
