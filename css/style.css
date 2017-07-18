@@ -383,6 +383,7 @@ p {
   font-family: HKGrotesk, serif; }
 
 body {
+  min-width: 320px;
   padding: 10px;
   font-family: HKGrotesk, serif;
   color: #92a1a9;
@@ -410,20 +411,8 @@ body {
   border-bottom: 3px solid #63757e;
   background-color: #272d42; }
 
-.items__gina {
-  background-image: url(../img/gina-product.jpg); }
+.items {
+  min-width: 320px; }
 
-.items__beoplay {
-  background-image: url(../img/beoplay-a1-product.jpg); }
-
-.items__leica {
-  background-image: url(../img/leica-mp.jpg); }
-
-.items__molekule {
-  background-image: url(../img/molekule.jpg); }
-
-.items__p9-signature {
-  background-image: url(../img/p9-signature.jpg); }
-
-.items__dr-ii {
-  background-image: url(../img/dr-ii.jpg); }
+.items > img {
+  width: 100%; }
