@@ -383,5 +383,12 @@ p {
   font-family: HKGrotesk, serif; }
 
 body {
+  padding: 10px;
   color: #92a1a9;
+  background-color: #272d42; }
+
+#search__field {
+  color: #92a1a9;
+  border: none;
+  border-bottom: 3px solid #63757e;
   background-color: #272d42; }
