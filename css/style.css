@@ -412,6 +412,7 @@ body {
   background-color: #272d42; }
 
 .items {
+  position: relative;
   min-width: 320px; }
 
 .items > img {
